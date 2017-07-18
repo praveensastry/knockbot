@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./client/styles.css">
+    <script type="text/javascript" src="./client/app/controllers/MatchUpManager.js"></script>
+    <script type="text/javascript" src="./client/app/controllers/RoundManager.js"></script>
+    <script type="text/javascript" src="./client/app/models/MatchUp.js"></script>
+    <script type="text/javascript" src="./client/app/models/Round.js"></script>
+    <script type="text/javascript" src="./client/app/models/Team.js"></script>
+    <script type="text/javascript" src="./client/app/models/Tournament.js"></script>
+    <script type="text/javascript" src="./client/app/views/renderGame.js"></script>
+    <script type="text/javascript" src="./client/app/helper.js"></script>
+    <script type="text/javascript" src="./client/client.js"></script>
+    <title>Knockout Tournament</title>
+  </head>
+  <body>
+    <!-- Edit me. -->
+    <!-- For tests to pass, the IDs of the elements below MUST NOT change. -->
+    <div class="sec-start">
+            
+            
+            <div class="fields">
+                <label for="teamsperMatch">Enter the number of teams per match:</label>
+                <label id="message_teamsPerMatch" class="hidden"></label>
+                <input id="teamsPerMatch" placeholder="Teams per match" type="number" />
+                <label for="numberOfTeams">Enter the number of teams:</label>
+                <label id="message_numberOfTeams" class="hidden"></label>
+                <input id="numberOfTeams" placeholder="Number of teams" type="number"/> <!-- For tests to pass, MUST NOT change this ID. -->
+                <button id="start">Start</button> <!-- For tests to pass, MUST NOT change this ID. -->
+                
+            </div>
+
+            <div id="gameInfo">
+                <div id="winnerInfo">
+                    <span id="winner" class="hidden"></span><!-- For tests to pass, MUST NOT change this ID. -->
+                    <span id="gameMsg"></span>
+                </div>
+                <ul id="gameMap">
+                </ul>
+            </div>
+        </div>
+    <!--<script src="./client/dist/bundle.js"></script>-->
+  </body>
+</html>
