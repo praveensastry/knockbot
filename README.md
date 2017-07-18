@@ -1,4 +1,4 @@
-# Knockout Tournament
+# Knockbot - Knockout Tournament Simulator
 
 The goal of this task is to simulate a single-elimination knockout tournament in the browser, determining the winner as quickly as possible.
 
@@ -84,6 +84,13 @@ npm install
 npm start # Starts the server on port 8765
 npm test # Runs the test suite
 ```
+
+## Further Improvements
+
+Add support for parallel tournaments
+Improve coding standards
+Current implementation fetches all the teams data as a loading step, can we make it better?
+
 
 ## Server API
 
