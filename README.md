@@ -1,4 +1,4 @@
-# Knockbot - Knockout Tournament Simulator
+# Knockbot - Knockout Tournament Simulator - on other branch
 
 The goal of this task is to simulate a single-elimination knockout tournament in the browser, determining the winner as quickly as possible.
 
